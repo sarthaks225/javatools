@@ -6,10 +6,10 @@
 
 1) src\util folder contains source code for SetterGetterGenerator.java
 2) dist folder contains tmlist.jar file
-   ♣To create class file of SetterGetterGenerator.java
-3) In command prompt 'C:\SetterGetterTool\src>javac -d ..\classes -classpath ..\dist\*;. util\*.java' 
+   #### ♣To create class file of SetterGetterGenerator.java
+4) In command prompt 'C:\SetterGetterTool\src>javac -d ..\classes -classpath ..\dist\*;. util\*.java' 
 
-    ### ♣To create jar file from class file
+    #### ♣To create jar file from class file
 4) After class file created, now creating jar files from class files
    cmd 'C:\SetterGetterTool\classes>jar -cvf ..\dist\common.jar util' 
    
